@@ -1,0 +1,1 @@
+I will be using all the techniques I learnt in the Odin Project foundations classes for HTML, CSS and flexbox to create a landing page.
