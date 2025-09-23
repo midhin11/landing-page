@@ -1,1 +1,1 @@
-# landing-page
+Creating a landing page using HTML, CSS and Flexbox from the Odin foundation course
