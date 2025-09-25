@@ -1,0 +1,149 @@
+/* Header */
+ul{
+    list-style: none;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    background-color: #1F2937;
+    color: #E5E7EB;
+    font-size: 18px;
+}
+
+.header > * {
+    border: 3px solid darkred;
+}
+
+.header-hero {
+    display: flex;
+    align-items: center;
+    padding-left: 250px;
+    padding-right: 250px;
+    padding-top: 10px;
+}
+
+.header-hero ul {
+    margin-left: auto;
+    display: flex;
+    gap: 16px;
+}
+
+.header-addon img {
+    margin-left: auto;
+}
+
+.header-addon {
+    display: flex;
+    gap: 100px;
+    padding-left: 250px;
+    padding-right: 250px;
+    padding-top: 30px;
+    padding-bottom: 100px;
+}
+
+.header-addon > * {
+    border: 3px solid rebeccapurple;
+}
+
+.header-text h2 {
+    color: #F9FAF8;
+    font-size: 48px;
+    font-weight: 900;
+    margin: 0px;
+    margin-top: 0px;
+}
+
+h1{
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+button {
+    background-color: #3883F6;
+    border-radius: 10px;
+    color: #F9FAF8;
+    font-weight: bold;
+    padding: 7px 30px;
+}
+
+
+/* Content */
+.content {
+    
+}
+
+.info {
+    border: 3px solid darkgoldenrod;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 50px;
+}
+
+.info h2 {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+}
+
+.images {
+    display: flex;
+    gap: 8  0px;
+}
+
+.images div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 180px;
+    text-align: center;
+}
+
+.images div img {
+    width: 170px;
+    height: auto;
+}
+
+.quote {
+    border: 3px solid darkgreen;
+    background-color: #E5E7EB;
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; */
+    /* width: 500px; */
+    padding: 50px;
+    font-size: 30px;
+    font-weight: 200;
+    color : rgb(86, 86, 86);
+}
+
+.quote > * {
+    border: 3px solid black;
+    width: 700px;
+    margin: 0px auto; 
+}
+
+.quote .thor {
+    text-align: right;
+    font-size: 20px;
+    font-weight: 700;
+    color: #1F2937;
+}  
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1F2937;
+    color: #E5E7EB;
+    padding: 20px;
+}
